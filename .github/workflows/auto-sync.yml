@@ -172,11 +172,23 @@ jobs:
             fi
           fi
       
+     - name: Daten an Google Drive senden
+        if: success()
+        run: |
+          if [ -f latest.json ]; then
+            curl -L -X POST -H "Content-Type: application/json" \
+            -d @latest.json \
+            "${{ secrets.GOOGLE_SCRIPT_URL }}"
+            echo "✅ Daten erfolgreich an Google Drive gesendet"
+          else
+            echo "⚠️ Keine latest.json gefunden, überspringe Google Drive Sync"
+          fi
+
       - name: Show result
         run: |
           echo "✅ Sync completed successfully!"
           echo "📊 View data: https://raw.githubusercontent.com/${{ github.repository }}/main/latest.json"
-      
+       
       - name: Notify on failure
         if: failure()
         run: |
