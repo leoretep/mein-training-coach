@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T05:48:01.966792",
+  "generated_at": "2026-04-26T06:06:29.839616",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -117,6 +117,44 @@
           "duration_secs": 203,
           "avg_hr": 92,
           "max_hr": 106,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i142901724",
+      "date": "2026-04-25",
+      "type": "Run",
+      "name": "Kurzer shakeout, weil Beine noch nicht 100%",
+      "interval_summary": [
+        "1x 5m54s 5:54",
+        "1x 1m53s 5:17"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "354s@126bpm84rpm",
+          "duration_secs": 354,
+          "avg_hr": 126,
+          "max_hr": 138,
+          "avg_cadence": 83.76023,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "113s@145bpm86rpm",
+          "duration_secs": 113,
+          "avg_hr": 145,
+          "max_hr": 157,
+          "avg_cadence": 85.67257,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 140,
+          "max_hr": 140,
+          "avg_cadence": 84.0,
           "zone": 1
         }
       ]
