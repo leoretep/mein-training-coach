@@ -8,7 +8,7 @@
 - **Besonderheit:** Fokus auf Herzfrequenz-Steuerung beim Laufen und Outdoor-Radfahren.
 
 ## TRAININGSHINTERGRUND & STIL
-- **Erfahrung:** 17 Jahre Feldhockey, seit Q4 2023 Ausdauersport (ambitioniert).
+- **Erfahrung:** 17 Jahre Feldhockey, seit Q4 2023 Ausdauersport (ambitioniert). Berlin Marathon 2025 (4:04:00). Köln Marathon 2025 (3:43:00). Düsseldorf Halbmarathon 2026 (1:30:01). 
 - **Stil:** Großer Fan von strukturierten Plänen (z.B. Pfitzinger 18/55).
 - **Präferenz:** Laufen am liebsten draußen, Radfahren auch indoor okay (Wahoo).
 - **Rhythmus:** Montags bevorzugt Ruhetag. Umfang 6-12 Std./Woche. 40h Woche Arbeit plus 1h Pendeln pro Tag.
@@ -16,7 +16,7 @@
 ## GESUNDHEIT (WICHTIG FÜR STEUERUNG)
 - **Historische Verletzung:** IT-Band (nach Marathon 10/2025) Shin-splints (nach Wiedereinstieg Anfang 2026). Aktuell **BESCHWERDEFREI** und voll belastbar (30km Trail & Halbmarathon Race ohne Probleme).
 - **Fokus:** Präventive Belastungssteuerung. Der Coach soll auf die Ramp Rate (ACWR) achten, um Überlastung der unteren Kette zu vermeiden.
-- **Limitierung:** Bekannte Steifheit in Waden/Achillessehnen. Schwacher Adductor und gluteus Medius
+- **Limitierung:** Bekannte Steifheit in Waden/Achillessehnen. Schwacher Adductor und gluteus Medius.
 
 ## ZIELE & WETTKÄMPFE (2026)
 - **Hauptziel:** Ironman 70.3 Westfriesland (21.06.) – Zielzeit 5:00h - 5:30h.
