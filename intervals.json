@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T07:43:25.013806",
+  "generated_at": "2026-05-27T08:03:07.734475",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -724,6 +724,54 @@
           "avg_hr": 121,
           "max_hr": 121,
           "avg_cadence": 81.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i151706512",
+      "date": "2026-05-26",
+      "type": "Run",
+      "name": "Easy Run \u2014 Build 2",
+      "interval_summary": [
+        "1x 5m52s 5:52",
+        "1x 40m48s 5:06",
+        "1x 5m38s 5:39"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "352s@120bpm83rpm",
+          "duration_secs": 352,
+          "avg_hr": 120,
+          "max_hr": 133,
+          "avg_cadence": 83.17867,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "2448s@139bpm85rpm",
+          "duration_secs": 2448,
+          "avg_hr": 139,
+          "max_hr": 150,
+          "avg_cadence": 85.427284,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "338s@134bpm83rpm",
+          "duration_secs": 338,
+          "avg_hr": 134,
+          "max_hr": 141,
+          "avg_cadence": 83.45266,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5,
+          "avg_hr": 140,
+          "max_hr": 141,
+          "avg_cadence": 80.0,
           "zone": 1
         }
       ]
