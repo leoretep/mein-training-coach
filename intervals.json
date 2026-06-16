@@ -1,158 +1,9 @@
 {
-  "generated_at": "2026-06-15T10:23:00.776515",
+  "generated_at": "2026-06-16T09:25:40.308348",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i155016456",
-      "date": "2026-06-07",
-      "type": "Ride",
-      "name": "Langer Ride \u2014 letzter vor Taper",
-      "interval_summary": [
-        "10x 11m42s 114bpm",
-        "1x 9m24s 126bpm",
-        "1x 56s 96bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "702s@114bpm",
-          "duration_secs": 783,
-          "avg_hr": 112,
-          "max_hr": 128,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "702s@114bpm",
-          "duration_secs": 685,
-          "avg_hr": 117,
-          "max_hr": 133,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "702s@114bpm",
-          "duration_secs": 683,
-          "avg_hr": 115,
-          "max_hr": 132,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "702s@114bpm",
-          "duration_secs": 650,
-          "avg_hr": 116,
-          "max_hr": 141,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "702s@114bpm",
-          "duration_secs": 754,
-          "avg_hr": 126,
-          "max_hr": 145,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "702s@114bpm",
-          "duration_secs": 702,
-          "avg_hr": 118,
-          "max_hr": 144,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "564s@126bpm",
-          "duration_secs": 564,
-          "avg_hr": 126,
-          "max_hr": 143,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "702s@114bpm",
-          "duration_secs": 648,
-          "avg_hr": 116,
-          "max_hr": 135,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "702s@114bpm",
-          "duration_secs": 758,
-          "avg_hr": 107,
-          "max_hr": 122,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "702s@114bpm",
-          "duration_secs": 635,
-          "avg_hr": 112,
-          "max_hr": 128,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "702s@114bpm",
-          "duration_secs": 718,
-          "avg_hr": 105,
-          "max_hr": 125,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "56s@96bpm",
-          "duration_secs": 56,
-          "avg_hr": 96,
-          "max_hr": 103,
-          "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i155046629",
-      "date": "2026-06-07",
-      "type": "Swim",
-      "name": "OWS \u2014 Peak Bike",
-      "interval_summary": [
-        "1x 200m 3:12",
-        "1x 1950m 2:11",
-        "1x 299m 2:38"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "383s@104bpm12rpm",
-          "duration_secs": 383,
-          "avg_hr": 104,
-          "max_hr": 123,
-          "avg_cadence": 11.973822,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "2553s@113bpm23rpm",
-          "duration_secs": 2553,
-          "avg_hr": 113,
-          "max_hr": 128,
-          "avg_cadence": 22.971014,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "475s@94bpm15rpm",
-          "duration_secs": 475,
-          "avg_hr": 94,
-          "max_hr": 115,
-          "avg_cadence": 14.962105,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i155598368",
       "date": "2026-06-09",
@@ -683,6 +534,45 @@
           "avg_hr": 137,
           "max_hr": 141,
           "avg_cadence": 83.54395,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i157664671",
+      "date": "2026-06-16",
+      "type": "Swim",
+      "name": "Race Week Swim",
+      "interval_summary": [
+        "2x 200m 2:28",
+        "1x 1000m 2:04"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "297s@111bpm17rpm",
+          "duration_secs": 312,
+          "avg_hr": 108,
+          "max_hr": 121,
+          "avg_cadence": 16.086538,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1240s@117bpm22rpm",
+          "duration_secs": 1240,
+          "avg_hr": 117,
+          "max_hr": 129,
+          "avg_cadence": 21.562902,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "297s@111bpm17rpm",
+          "duration_secs": 282,
+          "avg_hr": 113,
+          "max_hr": 122,
+          "avg_cadence": 17.627659,
           "zone": 1
         }
       ]
