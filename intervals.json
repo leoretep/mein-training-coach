@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T09:25:40.308348",
+  "generated_at": "2026-06-17T09:01:39.658861",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -47,77 +47,6 @@
           "duration_secs": 50,
           "avg_hr": 101,
           "max_hr": 101,
-          "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i155459477",
-      "date": "2026-06-08",
-      "type": "Ride",
-      "name": "Z2 Bike \u2014 Taper",
-      "interval_summary": [
-        "2x 14m49s 101bpm",
-        "2x 13m 103bpm",
-        "1x 9m12s 118bpm",
-        "1x 10m4s 103bpm",
-        "1x 2m32s 111bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "889s@101bpm",
-          "duration_secs": 886,
-          "avg_hr": 96,
-          "max_hr": 116,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "780s@103bpm",
-          "duration_secs": 767,
-          "avg_hr": 102,
-          "max_hr": 120,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "889s@101bpm",
-          "duration_secs": 891,
-          "avg_hr": 105,
-          "max_hr": 140,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "552s@118bpm",
-          "duration_secs": 552,
-          "avg_hr": 118,
-          "max_hr": 148,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "604s@103bpm",
-          "duration_secs": 604,
-          "avg_hr": 103,
-          "max_hr": 119,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "780s@103bpm",
-          "duration_secs": 793,
-          "avg_hr": 104,
-          "max_hr": 125,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "152s@111bpm",
-          "duration_secs": 152,
-          "avg_hr": 111,
-          "max_hr": 126,
           "zone": 1
         }
       ]
