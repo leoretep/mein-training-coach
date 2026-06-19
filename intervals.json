@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T08:46:41.911859",
+  "generated_at": "2026-06-19T09:05:12.277885",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -416,6 +416,46 @@
           "max_hr": 140,
           "avg_cadence": 83.0,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i158307446",
+      "date": "2026-06-18",
+      "type": "Swim",
+      "name": "Race Week Swim",
+      "interval_summary": [
+        "1x 200m 2:35",
+        "1x 600m 2:04",
+        "1x 200m 2:15"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "309s@108bpm16rpm",
+          "duration_secs": 309,
+          "avg_hr": 108,
+          "max_hr": 128,
+          "avg_cadence": 16.012945,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "746s@118bpm21rpm",
+          "duration_secs": 746,
+          "avg_hr": 118,
+          "max_hr": 149,
+          "avg_cadence": 20.52815,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "271s@99bpm18rpm",
+          "duration_secs": 271,
+          "avg_hr": 99,
+          "max_hr": 122,
+          "avg_cadence": 18.376383,
+          "zone": 2
         }
       ]
     }
