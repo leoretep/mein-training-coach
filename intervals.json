@@ -1,49 +1,9 @@
 {
-  "generated_at": "2026-06-19T09:05:12.277885",
+  "generated_at": "2026-06-20T07:49:51.253159",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i156268962",
-      "date": "2026-06-11",
-      "type": "Swim",
-      "name": "Morning Swim \u2014 Taper",
-      "interval_summary": [
-        "1x 200m 2:31",
-        "1x 1199m 2:12",
-        "1x 200m 2:15"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "305s@107bpm15rpm",
-          "duration_secs": 305,
-          "avg_hr": 107,
-          "max_hr": 117,
-          "avg_cadence": 15.432787,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "1580s@115bpm20rpm",
-          "duration_secs": 1580,
-          "avg_hr": 115,
-          "max_hr": 134,
-          "avg_cadence": 19.634178,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "271s@91bpm18rpm",
-          "duration_secs": 271,
-          "avg_hr": 91,
-          "max_hr": 106,
-          "avg_cadence": 17.90037,
-          "zone": 2
-        }
-      ]
-    },
     {
       "activity_id": "i156729756",
       "date": "2026-06-12",
