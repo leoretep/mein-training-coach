@@ -1,92 +1,9 @@
 {
-  "generated_at": "2026-07-21T06:26:50.667713",
+  "generated_at": "2026-07-22T06:26:21.369309",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i165222709",
-      "date": "2026-07-13",
-      "type": "Run",
-      "name": "Lauf am Morgen",
-      "interval_summary": [
-        "6x 6m20s 6:20",
-        "1x 20s 5:39"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "380s@118bpm84rpm",
-          "duration_secs": 402,
-          "avg_hr": 107,
-          "max_hr": 119,
-          "avg_cadence": 83.118385,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "380s@118bpm84rpm",
-          "duration_secs": 379,
-          "avg_hr": 114,
-          "max_hr": 119,
-          "avg_cadence": 83.746704,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "380s@118bpm84rpm",
-          "duration_secs": 366,
-          "avg_hr": 120,
-          "max_hr": 127,
-          "avg_cadence": 84.6612,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "380s@118bpm84rpm",
-          "duration_secs": 382,
-          "avg_hr": 119,
-          "max_hr": 126,
-          "avg_cadence": 84.227745,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "380s@118bpm84rpm",
-          "duration_secs": 377,
-          "avg_hr": 122,
-          "max_hr": 128,
-          "avg_cadence": 84.22812,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "380s@118bpm84rpm",
-          "duration_secs": 374,
-          "avg_hr": 125,
-          "max_hr": 133,
-          "avg_cadence": 84.73262,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "20s@130bpm86rpm",
-          "duration_secs": 20,
-          "avg_hr": 130,
-          "max_hr": 134,
-          "avg_cadence": 85.6,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 127,
-          "max_hr": 127,
-          "avg_cadence": 88.0,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i165702575",
       "date": "2026-07-14",
