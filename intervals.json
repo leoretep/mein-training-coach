@@ -1,77 +1,9 @@
 {
-  "generated_at": "2026-08-06T06:28:38.697729",
+  "generated_at": "2026-08-07T05:38:54.901997",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i170540449",
-      "date": "2026-07-29",
-      "type": "Ride",
-      "name": "*29",
-      "interval_summary": [
-        "1x 20m22s 89bpm",
-        "1x 11m35s 103bpm",
-        "1x 14m25s 104bpm",
-        "3x 9m32s 104bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1222s@89bpm3rpm",
-          "duration_secs": 1222,
-          "avg_hr": 89,
-          "max_hr": 119,
-          "avg_cadence": 3.1262755,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "695s@103bpm5rpm",
-          "duration_secs": 695,
-          "avg_hr": 103,
-          "max_hr": 119,
-          "avg_cadence": 4.584084,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "865s@104bpm6rpm",
-          "duration_secs": 865,
-          "avg_hr": 104,
-          "max_hr": 141,
-          "avg_cadence": 5.7923436,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "572s@104bpm3rpm",
-          "duration_secs": 574,
-          "avg_hr": 103,
-          "max_hr": 140,
-          "avg_cadence": 2.729021,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "572s@104bpm3rpm",
-          "duration_secs": 613,
-          "avg_hr": 106,
-          "max_hr": 127,
-          "avg_cadence": 4.1797943,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "572s@104bpm3rpm",
-          "duration_secs": 528,
-          "avg_hr": 103,
-          "max_hr": 122,
-          "avg_cadence": 3.354528,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i171510092",
       "date": "2026-08-01",
