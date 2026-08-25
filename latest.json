@@ -62,29 +62,20 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 4.87,
-      "total_training_formatted": "4h52m",
-      "total_activities": 6,
-      "total_tss": 107
+      "total_training_hours": 5.17,
+      "total_training_formatted": "5h10m",
+      "total_activities": 5,
+      "total_tss": 157
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-24T04:41:54.535910",
+    "last_updated": "2026-08-25T04:36:38.278546",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
   },
   "alerts": [
-    {
-      "metric": "acwr",
-      "value": 0.65,
-      "severity": "alarm",
-      "threshold": "0.75 / 1.35",
-      "context": "ACWR 0.65 outside safe range. Injury/overreach risk elevated.",
-      "persistence_days": null,
-      "tier": 2
-    },
     {
       "metric": "tid_distribution",
       "value": "Base",
@@ -102,13 +93,13 @@
       "hrv": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 81.5,
+        "baseline_7d": 103.5,
         "delta_pct": null
       },
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 44,
+        "baseline_7d": 43.5,
         "delta_bpm": null
       },
       "sleep": {
@@ -117,8 +108,8 @@
         "quality": null
       },
       "acwr": {
-        "status": "amber",
-        "value": 0.65
+        "status": "green",
+        "value": 0.89
       },
       "ri": {
         "status": "unavailable",
@@ -126,38 +117,38 @@
       },
       "tsb": {
         "status": "green",
-        "value": 7.6
+        "value": 6.5
       }
     },
     "signal_summary": {
-      "green": 1,
-      "amber": 1,
+      "green": 2,
+      "amber": 0,
       "red": 0,
       "unavailable": 4
     },
     "phase_context": {
-      "phase": "Base",
+      "phase": "Build",
       "phase_week": 1,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 1 green, 1 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 2 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-03-26",
-    "age_days": 150,
+    "age_days": 151,
     "total_months": 2,
     "history_confidence": "low"
   },
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 4.87,
-    "total_activities": 6,
+    "total_duration_decimal_hours": 5.17,
+    "total_activities": 5,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 1.99,
@@ -166,38 +157,26 @@
         "distance_km": 50.1
       },
       "Run": {
-        "duration_decimal_hours": 2.0,
-        "count": 2,
-        "tss": 58,
-        "distance_km": 19.4
-      },
-      "Unknown": {
-        "duration_decimal_hours": 0.0,
-        "count": 2,
-        "tss": 0,
-        "distance_km": 0.0
-      },
-      "Workout": {
-        "duration_decimal_hours": 0.88,
-        "count": 1,
-        "tss": 7,
-        "distance_km": 0.0
+        "duration_decimal_hours": 3.18,
+        "count": 4,
+        "tss": 115,
+        "distance_km": 33.4
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 29.75,
-      "atl": 22.13,
-      "tsb": 7.62,
-      "ramp_rate": -2.13,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 29.9,
+      "atl": 23.45,
+      "tsb": 6.45,
+      "ramp_rate": -1.23,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 184.7,
-      "w_prime": 16628,
+      "eftp": 184.6,
+      "w_prime": 16611,
       "w_prime_kj": 16.6,
-      "p_max": 593,
+      "p_max": 592,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -228,7 +207,7 @@
     },
     "current_metrics": {
       "weight_kg": 73.0,
-      "resting_hr": 44,
+      "resting_hr": 43,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null,
@@ -263,59 +242,59 @@
   },
   "derived_metrics": {
     "recovery_index": null,
-    "hrv_baseline_7d": 81.5,
-    "rhr_baseline_7d": 44,
-    "hrv_baseline_28d": 83.2,
+    "hrv_baseline_7d": 103.5,
+    "rhr_baseline_7d": 43.5,
+    "hrv_baseline_28d": 86.1,
     "rhr_baseline_28d": 44.1,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.65,
-    "acwr_interpretation": "undertraining",
-    "monotony": 0.86,
-    "monotony_interpretation": "normal",
+    "acwr": 0.89,
+    "acwr_interpretation": "optimal",
+    "monotony": 1.32,
+    "monotony_interpretation": "normal (primary sport 1.01, total 1.32 inflated by multi-sport)",
     "primary_sport": "run",
-    "primary_sport_monotony": null,
-    "primary_sport_tss_7d": 58.0,
-    "effective_monotony": 0.86,
+    "primary_sport_monotony": 1.01,
+    "primary_sport_tss_7d": 115.0,
+    "effective_monotony": 1.01,
     "multi_sport_detected": true,
-    "strain": 92.0,
-    "stress_tolerance": 1.1,
+    "strain": 207.0,
+    "stress_tolerance": 1.6,
     "load_recovery_ratio": null,
-    "tss_7d_total": 107.0,
-    "tss_28d_total": 662.0,
+    "tss_7d_total": 157.0,
+    "tss_28d_total": 705.0,
     "zone_distribution_7d": {
-      "z1_hours": 4.86,
-      "z2_hours": 0.01,
-      "z3_hours": 0.0,
+      "z1_hours": 4.84,
+      "z2_hours": 0.25,
+      "z3_hours": 0.08,
       "z4_plus_hours": 0.0,
-      "total_hours": 4.87,
+      "total_hours": 5.17,
       "zone_basis": "hr"
     },
-    "grey_zone_percentage": 0.0,
+    "grey_zone_percentage": 1.6,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
     "quality_intensity_percentage": 0.0,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 1.0,
+    "polarisation_index": 0.98,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 17546,
-      "z2_seconds": 0,
+      "z1_seconds": 18331,
+      "z2_seconds": 295,
       "z3_seconds": 0,
-      "z1_pct": 100.0,
-      "z2_pct": 0.0,
+      "z1_pct": 98.4,
+      "z2_pct": 1.6,
       "z3_pct": 0.0,
       "polarization_index": null,
       "classification": "Base",
       "zone_basis": "hr"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 7196,
-      "z2_seconds": 0,
+      "z1_seconds": 11155,
+      "z2_seconds": 295,
       "z3_seconds": 0,
-      "z1_pct": 100.0,
-      "z2_pct": 0.0,
+      "z1_pct": 97.4,
+      "z2_pct": 2.6,
       "z3_pct": 0.0,
       "polarization_index": null,
       "classification": "Base",
@@ -323,24 +302,24 @@
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 81147,
-      "z2_seconds": 1058,
+      "z1_seconds": 83227,
+      "z2_seconds": 1353,
       "z3_seconds": 1883,
-      "z1_pct": 96.5,
-      "z2_pct": 1.3,
+      "z1_pct": 96.3,
+      "z2_pct": 1.6,
       "z3_pct": 2.2,
-      "polarization_index": 2.23,
+      "polarization_index": 2.13,
       "classification": "Polarized",
       "zone_basis": "hr"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 34584,
-      "z2_seconds": 909,
+      "z1_seconds": 36664,
+      "z2_seconds": 1204,
       "z3_seconds": 1715,
-      "z1_pct": 92.9,
-      "z2_pct": 2.4,
-      "z3_pct": 4.6,
-      "polarization_index": 2.24,
+      "z1_pct": 92.6,
+      "z2_pct": 3.0,
+      "z3_pct": 4.3,
+      "polarization_index": 2.12,
       "classification": "Polarized",
       "zone_basis": "hr",
       "sport": "run"
@@ -376,7 +355,7 @@
         "classification_7d": "Base",
         "classification_28d": "Polarized",
         "pi_7d": null,
-        "pi_28d": 2.23,
+        "pi_28d": 2.13,
         "pi_delta": null,
         "drift": "shifting",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
@@ -384,12 +363,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-07-28",
-          "end": "2026-08-24"
+          "start": "2026-07-29",
+          "end": "2026-08-25"
         },
         "previous_window": {
-          "start": "2026-06-30",
-          "end": "2026-07-27"
+          "start": "2026-07-01",
+          "end": "2026-07-28"
         },
         "anchors": null,
         "rotation_index": null,
@@ -398,12 +377,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-07-28",
-          "end": "2026-08-24"
+          "start": "2026-07-29",
+          "end": "2026-08-25"
         },
         "previous_window": {
-          "start": "2026-06-30",
-          "end": "2026-07-27"
+          "start": "2026-07-01",
+          "end": "2026-07-28"
         },
         "anchors": {
           "60s": {
@@ -433,8 +412,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-07-14",
-          "end": "2026-08-24"
+          "start": "2026-07-15",
+          "end": "2026-08-25"
         },
         "weight_kg": 73.0,
         "weight_source": "athlete_profile",
@@ -445,34 +424,38 @@
         }
       }
     },
-    "consistency_index": null,
+    "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 0,
+      "planned_days": 1,
       "completed_days": 1,
       "matched_days": 0,
-      "note": "No planned workouts in period"
+      "planned_dates": [
+        "2026-08-25"
+      ],
+      "completed_dates": [
+        "2026-08-20"
+      ]
     },
     "phase_detection": {
-      "phase": "Base",
-      "confidence": "medium",
+      "phase": "Build",
+      "confidence": "low",
       "reason_codes": [
-        "PHASE_TRANSITION_Deload_TO_Base",
-        "NO_PLANNED_WORKOUTS"
+        "BUILD_RESUMING_AFTER_DELOAD_TENTATIVE"
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": -1.08,
-          "acwr_trend": "stable",
+          "ctl_slope": -1.05,
+          "acwr_trend": "rising",
           "hard_day_pattern": 1,
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": null,
+          "planned_tss_delta": 2.12,
           "hard_sessions_planned": 0,
-          "race_proximity": 55,
+          "race_proximity": 54,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_current_week": 1.2,
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -482,10 +465,9 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Base",
+    "phase_detected": "Build",
     "phase_triggers": [
-      "PHASE_TRANSITION_Deload_TO_Base",
-      "NO_PLANNED_WORKOUTS"
+      "BUILD_RESUMING_AFTER_DELOAD_TENTATIVE"
     ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
@@ -502,19 +484,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 184.7,
-    "w_prime": 16628,
+    "eftp": 184.6,
+    "w_prime": 16611,
     "w_prime_kj": 16.6,
-    "p_max": 593,
+    "p_max": 592,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-24T04:41:54.392018",
+    "calculation_timestamp": "2026-08-25T04:36:38.129052",
     "data_quality": {
       "hrv_data_points": 2,
       "rhr_data_points": 2,
-      "activities_7d": 6,
+      "activities_7d": 5,
       "activities_28d": 23,
-      "planned_workouts_7d": 0,
+      "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -522,6 +504,51 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i179374507",
+      "date": "2026-08-24T20:52:44",
+      "type": "Run",
+      "name": "Training Session",
+      "duration_hours": 0.67,
+      "distance_km": 8.29,
+      "tss": 37,
+      "intensity_factor": 74.49832,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 145,
+      "max_hr": 161,
+      "avg_cadence": 86.65399,
+      "avg_speed": 12.4,
+      "max_speed": 13.9,
+      "avg_pace": null,
+      "avg_temp": 23.0,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 585,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": 57.78011,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 1232,
+          "z2_time": 870,
+          "z3_time": 295,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": true
+    },
     {
       "id": "i178833796",
       "date": "2026-08-23T10:37:49",
@@ -658,75 +685,40 @@
       "has_intervals": true
     },
     {
-      "id": "19814143502",
+      "id": "i179251396",
       "date": "2026-08-19T21:06:58",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
+      "type": "Run",
+      "name": "Training Session",
+      "duration_hours": 0.51,
+      "distance_km": 5.75,
+      "tss": 20,
+      "intensity_factor": 62.300896,
       "avg_power": null,
       "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
+      "avg_hr": 130,
+      "max_hr": 143,
+      "avg_cadence": 83.99946,
+      "avg_speed": 11.2,
+      "max_speed": 12.1,
       "avg_pace": null,
-      "avg_temp": null,
+      "avg_temp": 25.0,
       "weather": null,
       "humidity": null,
       "wind_speed": null,
       "work_kj": null,
-      "calories": null,
+      "calories": 387,
       "carbs_used": null,
       "carbs_ingested": null,
       "variability_index": null,
       "decoupling": null,
       "efficiency_factor": null,
       "hrrc": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null,
-      "has_intervals": false
-    },
-    {
-      "id": "i177290861",
-      "date": "2026-08-18T19:46:15",
-      "type": "Workout",
-      "name": "Evening Workout",
-      "duration_hours": 0.88,
-      "distance_km": 0.0,
-      "tss": 7,
-      "intensity_factor": 28.186016,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 79,
-      "max_hr": 102,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": 200,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 0.0,
+      "elevation_m": 47.7379,
       "feel": null,
       "rpe": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 3174,
+          "z1_time": 1857,
           "z2_time": 0,
           "z3_time": 0,
           "z4_time": 0,
@@ -736,83 +728,9 @@
         }
       },
       "has_intervals": false
-    },
-    {
-      "id": "19797436512",
-      "date": "2026-08-18T19:25:20",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null,
-      "has_intervals": false
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-08-18",
-      "weight_kg": null,
-      "resting_hr": 44,
-      "hrv_rmssd": 78.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 7.1,
-      "sleep_formatted": "7h6m",
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": 42.0,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": 8163,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
     {
       "date": "2026-08-19",
       "weight_kg": null,
@@ -998,7 +916,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 19205,
+      "steps": 19503,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1010,6 +928,45 @@
     },
     {
       "date": "2026-08-24",
+      "weight_kg": null,
+      "resting_hr": 43,
+      "hrv_rmssd": 122.0,
+      "hrv_sdnn": null,
+      "sleep_hours": 7.62,
+      "sleep_formatted": "7h37m",
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": 41.0,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": 13033,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
+    },
+    {
+      "date": "2026-08-25",
       "weight_kg": null,
       "resting_hr": null,
       "hrv_rmssd": null,
@@ -1048,22 +1005,407 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 131371114,
+      "date": "2026-08-25",
+      "name": "KW35 Di \u2014 Easy Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 32,
+      "duration_hours": 0.66,
+      "duration_formatted": "39m39s",
+      "workout_summary": null,
+      "description": "Hauptlauf\n- 6km Z1 Pace (ca. 5:30-5:45/km)\n\nCooldown\n- 1km Z1 Pace (ca. 6:00/km)\n\nNotiz: Lockerer Dienstagslauf. Kein Tempo, kein Druck. Beine locker halten nach dem Wochenende."
+    },
+    {
+      "id": 131371115,
+      "date": "2026-08-26",
+      "name": "KW35 Mi \u2014 Schwimmen",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 5,
+      "duration_hours": 0.12,
+      "duration_formatted": "7m24s",
+      "workout_summary": null,
+      "description": "Einschwoemmem\n- 4x 100mtr Z1 Pace\n\nHauptsatz\n- 6x 100mtr Z2 Pace\n\nAusschwimmen\n- 2x 100mtr Z1 Pace\n\nNotiz: Erster OD-Schwimmtest. Technik und Atemrhythmus. Kein Tempo. Ziel ist Sicherheit fuer den Start am 6.9."
+    },
+    {
+      "id": 131371117,
+      "date": "2026-08-26",
+      "name": "KW35 Mi \u2014 Easy Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 23,
+      "duration_hours": 0.47,
+      "duration_formatted": "28m19s",
+      "workout_summary": null,
+      "description": "Hauptlauf\n- 5km Z1 Pace (ca. 5:45-6:00/km)\n\nNotiz: Kurzer Lauf nach dem Schwimmen. Sehr locker, nur Beine bewegen."
+    },
+    {
+      "id": 131371118,
+      "date": "2026-08-27",
+      "name": "KW35 Do \u2014 Easy Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 46,
+      "duration_hours": 0.94,
+      "duration_formatted": "56m38s",
+      "workout_summary": null,
+      "description": "Hauptlauf\n- 10km Z1 Pace (ca. 5:30-5:45/km)\n\nNotiz: Aerober Grundlagenlauf. HR unter 140 halten. Wenn Beine muede \u2014 Tempo rausnehmen."
+    },
+    {
+      "id": 131371119,
+      "date": "2026-08-29",
+      "name": "KW35 Sa \u2014 Progressiver Lauf",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 50,
+      "duration_hours": 0.87,
+      "duration_formatted": "52m14s",
+      "workout_summary": null,
+      "description": "Erste Haelfte\n- 5km Z1 Pace (ca. 5:30-5:45/km)\n\nZweite Haelfte\n- 5km Z2 Pace (ca. 5:00-5:10/km)\n\nNotiz: Progressiver Lauf. Die erste Haelfte wirklich locker starten \u2014 nicht in Versuchung kommen frueh Gas zu geben. Zweite Haelfte kontrolliert anziehen, nicht Vollgas."
+    },
+    {
+      "id": 131371120,
+      "date": "2026-08-30",
+      "name": "KW35 So \u2014 Long Run 20km",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 92,
+      "duration_hours": 1.88,
+      "duration_formatted": "1h53m",
+      "workout_summary": null,
+      "description": "Warmup\n- 2km Z1 Pace (ca. 6:00/km)\n\nHauptlauf\n- 16km Z1 Pace (ca. 5:30-5:45/km)\n\nCooldown\n- 2km Z1 Pace (ca. 6:00/km)\n\nNotiz: Erster langer Lauf des Marathonblocks. Tempo ist egal \u2014 Distanz zaehlt. HR unter 145 anstreben. Fueling: 1 Gel bei km 12-13, Wasser nach Bedarf."
+    },
+    {
+      "id": 131371121,
+      "date": "2026-08-31",
+      "name": "KW36 Mo \u2014 Easy Run (OD-Woche)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": "Hauptlauf\n- 7km Z1 Pace (ca. 5:45-6:00/km)\n\nNotiz: OD-Rennwoche. Locker ankommen. Keine Belastung mehr. Nur Beine in Bewegung halten."
+    },
+    {
+      "id": 131371123,
+      "date": "2026-09-01",
+      "name": "KW36 Di \u2014 Easy + Strides",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": "Hauptlauf\n- 5km Z1 Pace (ca. 5:45-6:00/km)\n\nNotiz: Nach dem Lauf 4x Strides: 20 Sekunden progressiv anziehen bis Renntempo, volle Gehpause dazwischen. Beine wecken ohne zu belasten."
+    },
+    {
+      "id": 131371124,
+      "date": "2026-09-02",
+      "name": "KW36 Mi \u2014 Schwimmen OD-Vorbereitung",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Einschwoemmem\n- 2x 100mtr Z1 Pace\nHauptsatz"
+    },
+    {
+      "id": 131371125,
+      "date": "2026-09-03",
+      "name": "KW36 Do \u2014 Very Easy",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 5km Z1 Pace (ca. 6:00-6:15/km)\nNotiz: Sehr locker. Kein HR-Ziel \u2014 einfach entspannt traben. Letzter etwas laengerer Lauf vor der OD."
+    },
+    {
+      "id": 131371126,
+      "date": "2026-09-05",
+      "name": "KW36 Sa \u2014 Bike Aktivierung + Einlaufen",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- 5m 50% FTP\nHauptsatz"
+    },
+    {
+      "id": 131371127,
+      "date": "2026-09-06",
+      "name": "\ud83c\udfca\ud83d\udeb4\ud83c\udfc3 OD RENNEN \u2014 Koelner Triathlon",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Schwimmen\n- 2km Z1 Pace (ca. 2:05/100m) \u2014 entspannt starten, einpendeln, Stroemung hilft\nBike"
+    },
+    {
+      "id": 131371128,
+      "date": "2026-09-08",
+      "name": "KW37 Di \u2014 Post-OD Very Easy",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 5km Z1 Pace (ca. 6:00-6:15/km)\nNotiz: Post-Race Recovery. Nur laufen wenn sich die Beine okay anfuehlen. HR unter 130. Bei Muedigkeit oder Schmerzen: Ruhetag stattdessen."
+    },
+    {
+      "id": 131371129,
+      "date": "2026-09-09",
+      "name": "KW37 Mi \u2014 Easy Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 8km Z1 Pace (ca. 5:45-6:00/km)\nNotiz: Aerober Erholungslauf. Koerper zuhoeren \u2014 wenn Beine noch schwer sind Tempo weiter rausnehmen."
+    },
+    {
+      "id": 131371130,
+      "date": "2026-09-10",
+      "name": "KW37 Do \u2014 Easy Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 8km Z1 Pace (ca. 5:30-5:45/km)\nNotiz: Sollte sich heute deutlich besser anfuehlen als Dienstag. Wenn nicht \u2014 nochmal einen Tag kuerzerkuerzen."
+    },
+    {
+      "id": 131371131,
+      "date": "2026-09-12",
+      "name": "KW37 Sa \u2014 Easy Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 8km Z1 Pace (ca. 5:30-5:45/km)\nNotiz: Letzter lockerer Lauf vor dem ersten Long Run nach der OD. Morgen wird laenger."
+    },
+    {
+      "id": 131371132,
+      "date": "2026-09-13",
+      "name": "KW37 So \u2014 Long Run 20km",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- 2km Z1 Pace (ca. 6:00/km)\nHauptlauf"
+    },
+    {
+      "id": 131371133,
+      "date": "2026-09-15",
+      "name": "KW38 Di \u2014 Marathontempo Session",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- 2km Z1 Pace (ca. 6:00/km)\nMarathontempo"
+    },
+    {
+      "id": 131371134,
+      "date": "2026-09-16",
+      "name": "KW38 Mi \u2014 Easy Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 10km Z1 Pace (ca. 5:45-6:00/km)\nNotiz: Tag nach der Tempoeinheit. Wirklich locker. HR unter 135 anstreben."
+    },
+    {
+      "id": 131371135,
+      "date": "2026-09-17",
+      "name": "KW38 Do \u2014 Easy Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 10km Z1 Pace (ca. 5:30-5:45/km)\nNotiz: Aerober Grundlagenlauf. Mittlerer Wochentag \u2014 etwas mehr Volumen bevor Freitag Ruhetag kommt."
+    },
+    {
+      "id": 131371136,
+      "date": "2026-09-19",
+      "name": "KW38 Sa \u2014 Easy Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 8km Z1 Pace (ca. 5:30-5:45/km)\nNotiz: Letzter kurzer Lauf vor dem wichtigsten Long Run. Locker und entspannt \u2014 morgen kommt die grosse Einheit."
+    },
+    {
+      "id": 131371137,
+      "date": "2026-09-20",
+      "name": "KW38 So \u2014 \ud83d\udd11 Long Run 28-30km",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- 2km Z1 Pace (ca. 6:00/km)\nHauptlauf"
+    },
+    {
+      "id": 131371138,
+      "date": "2026-09-22",
+      "name": "KW39 Di \u2014 Easy Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 8km Z1 Pace (ca. 5:45-6:00/km)\nNotiz: Erste Taperwoche. Nach dem grossen Long Run von Sonntag locker erholen. Kein Tempo."
+    },
+    {
+      "id": 131371140,
+      "date": "2026-09-23",
+      "name": "KW39 Mi \u2014 Easy Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 8km Z1 Pace (ca. 5:45-6:00/km)\nNotiz: Weiter locker. Beine sollten sich langsam wieder gut anfuehlen."
+    },
+    {
+      "id": 131371141,
+      "date": "2026-09-24",
+      "name": "KW39 Do \u2014 Easy + Strides",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 6km Z1 Pace (ca. 5:45-6:00/km)\nNotiz: Nach dem Lauf 5x Strides: 20 Sekunden auf Renntempo anziehen, volle Gehpause dazwischen. Schnelligkeit wach halten waehrend das Volumen sinkt."
+    },
+    {
+      "id": 131371142,
+      "date": "2026-09-26",
+      "name": "KW39 Sa \u2014 Long Run 20-22km",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- 2km Z1 Pace (ca. 6:00/km)\nHauptlauf"
+    },
+    {
+      "id": 131371143,
+      "date": "2026-09-27",
+      "name": "KW39 So \u2014 Easy Shakeout",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 5km Z1 Pace (ca. 6:00-6:15/km)\nNotiz: Kurzer Shakeout nach dem Samstags-Longrun. Nur wenn Beine okay \u2014 sonst Ruhetag. Kein Stress."
+    },
+    {
+      "id": 131371144,
+      "date": "2026-09-29",
+      "name": "KW40 Di \u2014 Easy + Strides",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 5km Z1 Pace (ca. 5:45-6:00/km)\nNotiz: Taperwoche. Nach dem Lauf 5x Strides: 20 Sek auf Renntempo, volle Gehpause. Beine wach halten."
+    },
+    {
+      "id": 131371145,
+      "date": "2026-09-30",
+      "name": "KW40 Mi \u2014 Easy Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 6km Z1 Pace (ca. 6:00/km)\nNotiz: Sehr locker. Letzte ruhige Einheit der Woche."
+    },
+    {
+      "id": 131371146,
+      "date": "2026-10-01",
+      "name": "KW40 Do \u2014 Easy + Strides",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 4km Z1 Pace (ca. 6:00/km)\nNotiz: Nach dem Lauf 4x Strides: 20 Sek anziehen, Gehpause. Alles sehr kurz und locker. Energiesparmodus."
+    },
+    {
+      "id": 131371147,
+      "date": "2026-10-03",
+      "name": "KW40 Sa \u2014 Aktivierung vor dem Marathon",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Hauptlauf\n- 3km Z1 Pace (ca. 6:00-6:15/km)\nNotiz: Nur 15min sehr lockeres Traben. Beine wecken ohne zu belasten. Startunterlagen abholen. Frueh essen (Pasta/Reis, keine Experimente), frueh schlafen. Wecker auf 04:30 Uhr stellen."
+    },
+    {
+      "id": 131371148,
+      "date": "2026-10-04",
+      "name": "\ud83c\udfaf KOELN MARATHON \u2014 Zielzeit 3:44-3:52",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "km 0-10\n- 10km Z1 Pace (ca. 5:25-5:30/km) \u2014 bewusst konservativ, du wirst ungeduldig sein\nkm 10-30"
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
+    "attempted": 6,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_workout_doc": 26,
+    "bail_no_match": 6
   },
   "weekly_summary": {
-    "total_training_hours": 4.87,
-    "total_training_formatted": "4h52m",
-    "total_tss": 107,
-    "activities_count": 6,
-    "avg_hrv": 81.5,
-    "avg_resting_hr": 44.0
+    "total_training_hours": 5.17,
+    "total_training_formatted": "5h10m",
+    "total_tss": 157,
+    "activities_count": 5,
+    "avg_hrv": 103.5,
+    "avg_resting_hr": 43.5
   },
   "race_calendar": {
     "next_race": {
@@ -1071,7 +1413,7 @@
       "date": "2026-10-18",
       "category": "RACE_A",
       "type": "Run",
-      "days_until": 55,
+      "days_until": 54,
       "moving_time_seconds": null,
       "distance_meters": null
     },
@@ -1081,7 +1423,7 @@
         "date": "2026-10-18",
         "category": "RACE_A",
         "type": "Run",
-        "days_until": 55,
+        "days_until": 54,
         "moving_time_seconds": null,
         "distance_meters": null
       }
