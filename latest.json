@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-28T15:54:42.938554",
+    "last_updated": "2026-08-29T10:49:07.376606",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -78,10 +78,10 @@
   "alerts": [
     {
       "metric": "acwr",
-      "value": 0.72,
-      "severity": "alarm",
-      "threshold": "0.75 / 1.35",
-      "context": "ACWR 0.72 outside safe range. Injury/overreach risk elevated.",
+      "value": 0.78,
+      "severity": "warning",
+      "threshold": "0.8 / 1.3",
+      "context": "ACWR 0.78 at edge of optimal range. Monitor closely. Alarm at 0.75/1.35.",
       "persistence_days": null,
       "tier": 2
     },
@@ -118,7 +118,7 @@
       },
       "acwr": {
         "status": "amber",
-        "value": 0.72
+        "value": 0.78
       },
       "ri": {
         "status": "unavailable",
@@ -126,7 +126,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 7.1
+        "value": 9.7
       }
     },
     "signal_summary": {
@@ -169,17 +169,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 29.38,
-      "atl": 22.32,
-      "tsb": 7.06,
-      "ramp_rate": -1.77,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 28.57,
+      "atl": 18.85,
+      "tsb": 9.72,
+      "ramp_rate": -1.84,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 184.0,
-      "w_prime": 16561,
-      "w_prime_kj": 16.6,
-      "p_max": 591,
+      "eftp": 183.8,
+      "w_prime": 16545,
+      "w_prime_kj": 16.5,
+      "p_max": 590,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -232,7 +232,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1646,
+      "steps": null,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -251,7 +251,7 @@
     "rhr_baseline_28d": 44.2,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.72,
+    "acwr": 0.78,
     "acwr_interpretation": "undertraining",
     "monotony": 1.26,
     "monotony_interpretation": "normal",
@@ -264,7 +264,7 @@
     "stress_tolerance": 1.3,
     "load_recovery_ratio": null,
     "tss_7d_total": 133.0,
-    "tss_28d_total": 735.0,
+    "tss_28d_total": 683.0,
     "zone_distribution_7d": {
       "z1_hours": 3.41,
       "z2_hours": 0.35,
@@ -305,13 +305,13 @@
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 81837,
-      "z2_seconds": 1433,
-      "z3_seconds": 1883,
-      "z1_pct": 96.1,
+      "z1_seconds": 74854,
+      "z2_seconds": 1323,
+      "z3_seconds": 1765,
+      "z1_pct": 96.0,
       "z2_pct": 1.7,
-      "z3_pct": 2.2,
-      "polarization_index": 2.1,
+      "z3_pct": 2.3,
+      "polarization_index": 2.11,
       "classification": "Polarized",
       "zone_basis": "hr"
     },
@@ -358,7 +358,7 @@
         "classification_7d": "Base",
         "classification_28d": "Polarized",
         "pi_7d": null,
-        "pi_28d": 2.1,
+        "pi_28d": 2.11,
         "pi_delta": null,
         "drift": "shifting",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
@@ -366,12 +366,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-08-01",
-          "end": "2026-08-28"
+          "start": "2026-08-02",
+          "end": "2026-08-29"
         },
         "previous_window": {
-          "start": "2026-07-04",
-          "end": "2026-07-31"
+          "start": "2026-07-05",
+          "end": "2026-08-01"
         },
         "anchors": null,
         "rotation_index": null,
@@ -380,12 +380,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-08-01",
-          "end": "2026-08-28"
+          "start": "2026-08-02",
+          "end": "2026-08-29"
         },
         "previous_window": {
-          "start": "2026-07-04",
-          "end": "2026-07-31"
+          "start": "2026-07-05",
+          "end": "2026-08-01"
         },
         "anchors": {
           "60s": {
@@ -415,8 +415,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-07-18",
-          "end": "2026-08-28"
+          "start": "2026-07-19",
+          "end": "2026-08-29"
         },
         "weight_kg": 73.0,
         "weight_source": "athlete_profile",
@@ -429,14 +429,15 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 5,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-29"
       ],
       "completed_dates": []
     },
@@ -448,15 +449,15 @@
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": -1.18,
-          "acwr_trend": "stable",
+          "ctl_slope": -1.38,
+          "acwr_trend": "rising",
           "hard_day_pattern": 1,
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 2.14,
+          "planned_tss_delta": 3.21,
           "hard_sessions_planned": 0,
-          "race_proximity": 51,
+          "race_proximity": 50,
           "next_week_load": 0.5,
           "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.0
@@ -488,19 +489,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 184.0,
-    "w_prime": 16561,
-    "w_prime_kj": 16.6,
-    "p_max": 591,
+    "eftp": 183.8,
+    "w_prime": 16545,
+    "w_prime_kj": 16.5,
+    "p_max": 590,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-28T15:54:42.776906",
+    "calculation_timestamp": "2026-08-29T10:49:07.375806",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 3,
       "activities_7d": 5,
-      "activities_28d": 24,
-      "planned_workouts_7d": 4,
+      "activities_28d": 23,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -736,45 +737,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-08-22",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": 196,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
-    {
       "date": "2026-08-23",
       "weight_kg": null,
       "resting_hr": 44,
@@ -998,7 +960,46 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1646,
+      "steps": 3017,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
+    },
+    {
+      "date": "2026-08-29",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1059,6 +1060,18 @@
       "description": "Hauptlauf\n- 5km Z1 Pace (ca. 5:45-6:00/km)\n\nNotiz: Nach dem Lauf 4x Strides: 20 Sekunden progressiv anziehen bis Renntempo, volle Gehpause dazwischen. Beine wecken ohne zu belasten."
     },
     {
+      "id": 131371124,
+      "date": "2026-09-01",
+      "name": "KW36 Mi \u2014 Schwimmen OD-Vorbereitung",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 5,
+      "duration_hours": 0.12,
+      "duration_formatted": "7m24s",
+      "workout_summary": null,
+      "description": "Einschwoemmem\n- 2x 100mtr Z1 Pace\n\nHauptsatz\n- 6x 100mtr Z2 Pace\n\nAusschwimmen\n- 2x 100mtr Z1 Pace\n\nNotiz: Letzter Schwimmtest vor der OD. Gefuehl fuer das Wasser, Armzug und Atemrhythmus checken. Kein Stress."
+    },
+    {
       "id": 131371125,
       "date": "2026-09-02",
       "name": "KW36 Do \u2014 Very Easy",
@@ -1071,18 +1084,6 @@
       "description": "Hauptlauf\n- 5km Z1 Pace (ca. 6:00-6:15/km)\n\nNotiz: Sehr locker. Kein HR-Ziel \u2014 einfach entspannt traben. Letzter etwas laengerer Lauf vor der OD."
     },
     {
-      "id": 131371124,
-      "date": "2026-09-03",
-      "name": "KW36 Mi \u2014 Schwimmen OD-Vorbereitung",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 5,
-      "duration_hours": 0.12,
-      "duration_formatted": "7m24s",
-      "workout_summary": null,
-      "description": "Einschwoemmem\n- 2x 100mtr Z1 Pace\n\nHauptsatz\n- 6x 100mtr Z2 Pace\n\nAusschwimmen\n- 2x 100mtr Z1 Pace\n\nNotiz: Letzter Schwimmtest vor der OD. Gefuehl fuer das Wasser, Armzug und Atemrhythmus checken. Kein Stress."
-    },
-    {
       "id": 131371126,
       "date": "2026-09-05",
       "name": "KW36 Sa \u2014 Bike Aktivierung + Einlaufen",
@@ -1092,7 +1093,7 @@
       "duration_hours": 0.42,
       "duration_formatted": "25m",
       "workout_summary": null,
-      "description_preview": "Warmup\n- 5m 50% FTP\nHauptsatz"
+      "description": "Warmup\n- 5m 50% FTP\n\nHauptsatz\n- 15m Z2\n\nCooldown\n- 5m 50% FTP\n\nNotiz: Kurze Aktivierung nach der Anreise. Sehr locker \u2014 HR unter 120, kein Watt-Ziel. Transition checken. Danach 2km sehr lockeres Einlaufen wenn moeglich. Frueh essen, frueh schlafen."
     },
     {
       "id": 131371128,
@@ -1357,7 +1358,7 @@
       "date": "2026-10-18",
       "category": "RACE_A",
       "type": "Run",
-      "days_until": 51,
+      "days_until": 50,
       "moving_time_seconds": null,
       "distance_meters": null
     },
@@ -1367,7 +1368,7 @@
         "date": "2026-10-18",
         "category": "RACE_A",
         "type": "Run",
-        "days_until": 51,
+        "days_until": 50,
         "moving_time_seconds": null,
         "distance_meters": null
       }
