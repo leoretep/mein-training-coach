@@ -36,6 +36,16 @@ Credentials (checked in order):
   3. Environment: ATHLETE_ID, INTERVALS_KEY
 
 Output: JSON to stdout for agent parsing.
+
+CHANGELOG (this copy):
+  - FIX: _build_event() no longer overwrites "workout_doc" with an empty
+    dict when a text "description" is present. Previously this clobbered
+    Intervals.icu's own structured-steps parsing of the description text,
+    which is what device sync (e.g. Coros) reads from — so pushed workouts
+    rendered fine on the Intervals.icu web UI but never appeared on the
+    watch. Now the field is simply omitted, letting Intervals.icu generate
+    workout_doc server-side from the description, same as a workout typed
+    directly into the Intervals.icu web builder.
 """
 
 import argparse
@@ -53,7 +63,7 @@ class IntervalsPush:
     """Manage planned workouts on Intervals.icu calendar."""
 
     BASE_URL = "https://intervals.icu/api/v1"
-    VERSION = "0.3"
+    VERSION = "0.3.1"
 
     VALID_TYPES = {
         "Ride", "VirtualRide", "MountainBikeRide", "GravelRide", "EBikeRide",
@@ -224,7 +234,15 @@ class IntervalsPush:
         description = workout.get("description", "")
         if description:
             event["description"] = description
-            event["workout_doc"] = {}
+            # NOTE: previously this also set event["workout_doc"] = {},
+            # which clobbers Intervals.icu's own parsing of the description
+            # text into structured steps. That structured "workout_doc" is
+            # what device sync (Coros etc.) reads from - a workout typed
+            # directly into the Intervals.icu web builder gets a populated
+            # workout_doc automatically, but a bulk API push that force-sets
+            # it to {} suppresses that generation. Omitting the field lets
+            # Intervals.icu build it server-side from the description, same
+            # as the web UI does.
 
         target = workout.get("target")
         if target:
