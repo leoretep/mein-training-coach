@@ -1,39 +1,9 @@
 {
-  "generated_at": "2026-09-21T09:36:50.401771",
+  "generated_at": "2026-09-22T09:01:37.205569",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i186265512",
-      "date": "2026-09-13",
-      "type": "Run",
-      "name": "Mittagslauf",
-      "interval_summary": [
-        "1x 6m12s 6:12",
-        "1x 2m33s 5:37"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "372s@119bpm84rpm",
-          "duration_secs": 372,
-          "avg_hr": 119,
-          "max_hr": 134,
-          "avg_cadence": 83.54372,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "153s@129bpm88rpm",
-          "duration_secs": 153,
-          "avg_hr": 129,
-          "max_hr": 150,
-          "avg_cadence": 87.76316,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i186824564",
       "date": "2026-09-14",
