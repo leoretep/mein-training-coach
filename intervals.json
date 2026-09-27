@@ -1,69 +1,9 @@
 {
-  "generated_at": "2026-09-26T09:08:20.969126",
+  "generated_at": "2026-09-27T09:49:56.230148",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i188030227",
-      "date": "2026-09-18",
-      "type": "Run",
-      "name": "Abendlauf",
-      "interval_summary": [
-        "1x 8m23s 8:22",
-        "1x 7m1s 7:01",
-        "1x 23m42s 9:59",
-        "1x 6m27s 6:27",
-        "1x 4m31s 6:37"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "503s@118bpm80rpm",
-          "duration_secs": 503,
-          "avg_hr": 118,
-          "max_hr": 154,
-          "avg_cadence": 80.18089,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "421s@114bpm82rpm",
-          "duration_secs": 421,
-          "avg_hr": 114,
-          "max_hr": 128,
-          "avg_cadence": 81.9715,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "1422s@118bpm61rpm",
-          "duration_secs": 1422,
-          "avg_hr": 118,
-          "max_hr": 142,
-          "avg_cadence": 60.58027,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "387s@131bpm81rpm",
-          "duration_secs": 387,
-          "avg_hr": 131,
-          "max_hr": 146,
-          "avg_cadence": 81.00259,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "271s@133bpm80rpm",
-          "duration_secs": 271,
-          "avg_hr": 133,
-          "max_hr": 145,
-          "avg_cadence": 80.36216,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i189620777",
       "date": "2026-09-23",
