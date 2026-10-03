@@ -1,84 +1,9 @@
 {
-  "generated_at": "2026-10-02T10:18:43.718655",
+  "generated_at": "2026-10-03T09:40:48.006050",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i189999013",
-      "date": "2026-09-24",
-      "type": "Run",
-      "name": "KW39 Do \u2014 Easy + Strides",
-      "interval_summary": [
-        "6x 3m58s 3:58",
-        "1x 5s 4:27"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "238s@163bpm91rpm",
-          "duration_secs": 255,
-          "avg_hr": 146,
-          "max_hr": 161,
-          "avg_cadence": 88.59426,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "238s@163bpm91rpm",
-          "duration_secs": 241,
-          "avg_hr": 161,
-          "max_hr": 165,
-          "avg_cadence": 90.87967,
-          "zone": 3
-        },
-        {
-          "type": "WORK",
-          "label": "238s@163bpm91rpm",
-          "duration_secs": 235,
-          "avg_hr": 164,
-          "max_hr": 170,
-          "avg_cadence": 91.587234,
-          "zone": 4
-        },
-        {
-          "type": "WORK",
-          "label": "238s@163bpm91rpm",
-          "duration_secs": 235,
-          "avg_hr": 167,
-          "max_hr": 171,
-          "avg_cadence": 91.65958,
-          "zone": 4
-        },
-        {
-          "type": "WORK",
-          "label": "238s@163bpm91rpm",
-          "duration_secs": 234,
-          "avg_hr": 168,
-          "max_hr": 172,
-          "avg_cadence": 91.87607,
-          "zone": 4
-        },
-        {
-          "type": "WORK",
-          "label": "238s@163bpm91rpm",
-          "duration_secs": 229,
-          "avg_hr": 170,
-          "max_hr": 174,
-          "avg_cadence": 91.52402,
-          "zone": 4
-        },
-        {
-          "type": "WORK",
-          "label": "5s@171bpm92rpm",
-          "duration_secs": 5,
-          "avg_hr": 171,
-          "max_hr": 172,
-          "avg_cadence": 92.25,
-          "zone": 4
-        }
-      ]
-    },
     {
       "activity_id": "i190468901",
       "date": "2026-09-26",
@@ -278,6 +203,81 @@
           "max_hr": 151,
           "avg_cadence": 85.333336,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i192744227",
+      "date": "2026-10-02",
+      "type": "Run",
+      "name": "New Balance Midnight Miles",
+      "interval_summary": [
+        "4x 5m56s 5:55",
+        "1x 10m24s 6:07",
+        "1x 8s 6:04"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "356s@123bpm84rpm",
+          "duration_secs": 366,
+          "avg_hr": 117,
+          "max_hr": 135,
+          "avg_cadence": 83.12257,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "356s@123bpm84rpm",
+          "duration_secs": 351,
+          "avg_hr": 121,
+          "max_hr": 130,
+          "avg_cadence": 83.78632,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "624s@135bpm83rpm",
+          "duration_secs": 624,
+          "avg_hr": 135,
+          "max_hr": 154,
+          "avg_cadence": 83.19452,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "356s@123bpm84rpm",
+          "duration_secs": 356,
+          "avg_hr": 130,
+          "max_hr": 153,
+          "avg_cadence": 84.05899,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "356s@123bpm84rpm",
+          "duration_secs": 349,
+          "avg_hr": 122,
+          "max_hr": 129,
+          "avg_cadence": 84.10602,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "8s@123bpm84rpm",
+          "duration_secs": 8,
+          "avg_hr": 123,
+          "max_hr": 126,
+          "avg_cadence": 84.25,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 123,
+          "max_hr": 123,
+          "avg_cadence": 85.0,
+          "zone": 1
         }
       ]
     }
