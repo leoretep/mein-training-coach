@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T11:11:21.662295",
+  "generated_at": "2026-10-06T11:01:33.258071",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -360,6 +360,83 @@
           "avg_hr": 122,
           "max_hr": 132,
           "avg_cadence": 75.89447,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i193950069",
+      "date": "2026-10-05",
+      "type": "Ride",
+      "name": "Cycling",
+      "interval_summary": [
+        "1x 17m15s 96bpm",
+        "2x 13m16s 110bpm",
+        "3x 10m50s 109bpm",
+        "1x 8m35s 94bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1035s@96bpm4rpm",
+          "duration_secs": 1035,
+          "avg_hr": 96,
+          "max_hr": 120,
+          "avg_cadence": 4.306148,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "796s@110bpm8rpm",
+          "duration_secs": 757,
+          "avg_hr": 105,
+          "max_hr": 121,
+          "avg_cadence": 6.5487466,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "796s@110bpm8rpm",
+          "duration_secs": 834,
+          "avg_hr": 114,
+          "max_hr": 138,
+          "avg_cadence": 9.118705,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "650s@109bpm6rpm",
+          "duration_secs": 624,
+          "avg_hr": 105,
+          "max_hr": 130,
+          "avg_cadence": 5.1813726,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "650s@109bpm6rpm",
+          "duration_secs": 681,
+          "avg_hr": 106,
+          "max_hr": 136,
+          "avg_cadence": 4.8515153,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "650s@109bpm6rpm",
+          "duration_secs": 644,
+          "avg_hr": 115,
+          "max_hr": 146,
+          "avg_cadence": 7.314554,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "515s@94bpm5rpm",
+          "duration_secs": 515,
+          "avg_hr": 94,
+          "max_hr": 147,
+          "avg_cadence": 4.5,
           "zone": 1
         }
       ]
