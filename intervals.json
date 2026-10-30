@@ -1,29 +1,9 @@
 {
-  "generated_at": "2026-10-29T10:42:37.861496",
+  "generated_at": "2026-10-30T10:42:58.633970",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i200075060",
-      "date": "2026-10-21",
-      "type": "Run",
-      "name": "Abendlauf",
-      "interval_summary": [
-        "1x 39m27s 5:23"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2367s@128bpm85rpm",
-          "duration_secs": 2367,
-          "avg_hr": 128,
-          "max_hr": 140,
-          "avg_cadence": 84.65369,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i200813427",
       "date": "2026-10-23",
