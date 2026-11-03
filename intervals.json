@@ -1,39 +1,9 @@
 {
-  "generated_at": "2026-11-02T11:59:49.173466",
+  "generated_at": "2026-11-03T11:37:52.735827",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i201397169",
-      "date": "2026-10-25",
-      "type": "Run",
-      "name": "Lauf am Morgen",
-      "interval_summary": [
-        "1x 1h18m 4:54",
-        "1x 3m24s 4:30"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "4697s@145bpm87rpm",
-          "duration_secs": 4697,
-          "avg_hr": 145,
-          "max_hr": 158,
-          "avg_cadence": 86.66859,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "204s@152bpm88rpm",
-          "duration_secs": 204,
-          "avg_hr": 152,
-          "max_hr": 158,
-          "avg_cadence": 88.382355,
-          "zone": 2
-        }
-      ]
-    },
     {
       "activity_id": "i202482018",
       "date": "2026-10-27",
